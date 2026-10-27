@@ -1,0 +1,21 @@
+{
+  "name": "mvr-sms-service",
+  "version": "1.0.0",
+  "description": "Dedicated SMS and Automated Cron Service for MVR Grand & MVR Residency deployed on Render",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
